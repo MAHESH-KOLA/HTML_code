@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> project </title>
+</head>
+<body>
+<h style="font-size:40px"><b>CatPhotoApp</b></h><br>
+<br>
+<h style="font-size:30px"><b>Cat Photos</b></h><br>
+<p> click hear to view more <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiejM2P9u35AhUHRmwGHareDpwQFnoECDgQAQ&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fcat%2F&usg=AOvVaw0OQB07qbDBuLUYO8BkC-5Q"> cat photos </a> </p>
+<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiejM2P9u35AhUHRmwGHareDpwQFnoECDgQAQ&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fcat%2F&usg=AOvVaw0OQB07qbDBuLUYO8BkC-5Q"> <img src="/home/mahesh/Downloads/cat.jpg" /> </a>
+<br>
+<h style="font-size:30px"><b>Cat Lists</b></h><br>
+<br>
+<h style="font-size:30px"><b>Things cat love: </b></h><br>
+<br>
+<ul>
+<li> cat nip </li>
+<li> laser pointers </li>
+<li> lasagna </li>
+</ul>
+<img src="/home/mahesh/Downloads/cat1.jpg" <br> <figcaption>Cats <em>love</em> lasagna. </figcaption> 
+<br>
+<h style="font-size:30px"><b>Things cat love: </b></h><br>
+<br>
+<ol>
+<li> flea treatment </li>
+<li> thunder </li>
+<li> other cats </li>
+</ol>
+<img src="/home/mahesh/Downloads/cats.jpg" <br> <figcaption>Cats <b>hate</b> other cats. </figcaption> 
+<br>
+<h style="font-size:30px"><b>Things cat love: </b></h><br>
+<br>
+<form>
+<fieldset>
+<legend> <p> Is your cat an indoor or outdoor cat?</p></legend>
+<input type="radio" id="cat1" name="cat" checked="Indoor">
+<label for="cat1"> Indoor </label>
+<input type="radio" id="cat2" name="cat">
+<label for="cat2"> Outdoor </label>
+</fieldset>
+</form>
+<form>
+<fieldset>
+<legend> <p> What's your cat's personality?</p></legend>
+<input type="checkbox" id="cat3" name="cat" checked="Loving">
+<label for="cat3"> Loving </label>
+<input type="checkbox" id="cat4" name="cat">
+<label for="cat4"> Lazy </label>
+<input type="checkbox" id="cat5" name="cat">
+<label for="cat5"> Energetic </label>
+</fieldset>
+<input type="text" name="catphotourl" placeholder="cat photo URL" required>
+<input type="submit" value="submit" >
+<br>
+</form>
+<p> NO Copyright <a href="freeCodeCamp.org"> freeCodeCamp.org</a></p>
+</body>
+</html>
